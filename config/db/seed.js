@@ -9,7 +9,6 @@ connect()
 .then(_ => Brewery.remove({}))
 .then(_ => Brewery.collection.insert(seedBreweries))
 .then(breweries => {
-  console.log(breweries)
   process.exit()
 })
 .catch((err) => {

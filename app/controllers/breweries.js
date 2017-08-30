@@ -6,7 +6,7 @@ module.exports = {
     Brewery.findOne({_id: id})
     .then(brewery => {
       req.brewery = brewery
-      if (!req.brewery) return next(new Errer('Brewery not found'))
+      if (!req.brewery) return next(new Error('Brewery not found'))
       next()
     })
     .catch(err => next(err))

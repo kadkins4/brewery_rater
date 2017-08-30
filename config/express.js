@@ -14,11 +14,10 @@ module.exports = function expressConfig (app) {
     credentials: true
   }))
 
-app.use(express.static(config.root + '/public'))
-app.use(express.static(config.root + '/node_modules'))
+  app.use(express.static(config.root + '/public'))
+  app.use(express.static(config.root + '/node_modules'))
 
-if (env !== 'test') app.use(morgan('dev'))
+  if (env !== 'test') app.use(morgan('dev'))
 
-app.use(bodyParser.json())
-
+  app.use(bodyParser.json())
 }

@@ -28,7 +28,7 @@ router.use(function (err, req, res, next) {
   })
 })
 
-router.user(function (req, res) {
+router.use(function (req, res) {
   const payload = {
     url: req.originalUrl,
     error: 'not found'

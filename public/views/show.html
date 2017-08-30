@@ -1,0 +1,6 @@
+<h2>{{ brewery.name }}</h2>
+<p> {{ brewery.address }}</p>
+
+<ul>
+  <li ng-repeat="beer in vm.brewery.beers">{{ beer.name }} <img ng-src="{{ beer.photo_url }}"></li>
+</ul>
