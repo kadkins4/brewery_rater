@@ -48,7 +48,7 @@ module.exports = {
   },
   destroy: (req, res) => {
     console.log('breweries destroy action')
-    req.todo.remove()
+    req.brewery.remove()
     .then(_ => res.json({
       message: 'brewery deleted'
     }))

@@ -22,5 +22,17 @@
         controller: 'BreweryShowController',
         controllerAs: 'vm'
       })
+      .state('breweriesNew', {
+        url: '/breweries/new',
+        templateUrl: 'views/new.html',
+        controller: 'BreweryNewController',
+        controllerAs: 'vm'
+      })
+      .state('breweriesEdit', {
+        url: '/breweries/:id/edit',
+        templateUrl: 'views/edit.html',
+        controller: 'BreweryEditController',
+        controllerAs: 'vm'
+      })
     $urlRouterProvider.otherwise('/breweries')
   }

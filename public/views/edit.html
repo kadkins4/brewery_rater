@@ -1,0 +1,16 @@
+<form novalidate class="simple-form">
+
+    <input type="text" placeholder=vm.brewery.name ng-model="vm.brewery.name"/><br />
+
+    <input type="text" placeholder=vm.brewery.address ng-model="vm.brewery.address"/><br />
+
+    <div ng-repeat="beer in vm.brewery.beers">
+      <input type="text" placeholder="{{beer.name}}" ng-model="beer.name" />
+      <input type="text" placeholder="{{beer.photo_url}}" ng-model="beer.photo_url" />
+    </div>
+
+    <input type="submit" ng-click="vm.update()" />
+
+    <input type="submit" value="Delete this brewery" ng-click="vm.destroy()" />
+
+  </form>
