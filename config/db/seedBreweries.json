@@ -1,0 +1,54 @@
+[
+  {
+    "name": "DC Brau",
+    "address": "3178 Bladensburg Rd NE B, Washington, DC 20018",
+    "beers": [{
+        "name": "The Public Pale Ale",
+        "photo_url": "https://cdn.beeradvocate.com/im/beers/68154.jpg"
+      },
+      {
+        "name": "The Corruption IPA",
+        "photo_url": "http://res.cloudinary.com/ratebeer/image/upload/w_250,c_limit/beer_142610.jpg"
+      },
+      {
+        "name": "The Citizen",
+        "photo_url": "http://res.cloudinary.com/ratebeer/image/upload/w_250,c_limit/beer_142611.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Flying Dog",
+    "address": "4607 Wedgewood Blvd, Frederick, MD 21703",
+    "beers": [{
+      "name": "Raging Bitch Belgian IPA",
+      "photo_url": "http://flyingdogbrewery.com/wp-content/uploads/2011/01/RagingBitch_Bottle.png"
+    },
+    {
+      "name": "Easy IPA",
+      "photo_url": "http://flyingdogbrewery.com/wp-content/uploads/2014/04/EasyIPA_Bottle.png"
+    },
+    {
+      "name": "Pearl Necklace Chesapeake Stout",
+      "photo_url": "http://flyingdogbrewery.com/wp-content/uploads/2012/05/PearlNecklace_Bottle.png"
+    }
+  ]
+},
+  {
+    "name": "Atlas Brew Works",
+    "photo_url": "2052 West Virginia Ave NE #102, Washington, DC 20002",
+    "beers": [
+      {
+        "name": "District Commmon Lager",
+        "photo_url": "http://www.atlasbrewworks.com/assets/uploads/Atlas_Artwork_DistrictColor_R2.png"
+      },
+      {
+        "name": "Rowdy Rye Ale",
+        "photo_url": "http://www.atlasbrewworks.com/assets/uploads/Atlas_Artwork_ROWDYColor_R2.png"
+      },
+      {
+        "name": "Ponzi IPA",
+        "photo_url": "http://www.atlasbrewworks.com/assets/uploads/Atlas_Artwork_PONZI-1.png"
+      }
+    ]
+  }
+]
